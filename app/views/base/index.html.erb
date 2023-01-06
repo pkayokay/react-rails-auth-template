@@ -1,0 +1,5 @@
+<% if Current.user %>
+  <%= link_to "Go to app", app_path %>
+<% else %>
+  <%= link_to "Login", sign_in_path %>
+<% end %>
